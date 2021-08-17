@@ -14,3 +14,10 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+//
+//
+
+const globalFunction = ()=> {
+	console.log("Global scope")
+}
+

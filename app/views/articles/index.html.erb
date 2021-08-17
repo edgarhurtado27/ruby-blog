@@ -1,0 +1,15 @@
+<h1>Articles#index</h1>
+<span>Find me in app/views/articles/index.html.erb</span>
+<h3>Hello, Rails!</h3>
+
+<ul>
+  <% @articles.each do |article| %>
+    <li>
+      <a href="/articles/<%= article.id %>">
+        <%= article.title %>
+      </a>
+    </li>
+  <% end %>
+</ul>
+
+<button onclick="globalFunction()">Call global function</button>
